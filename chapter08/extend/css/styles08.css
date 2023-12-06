@@ -1,0 +1,75 @@
+/*
+Author:
+Date:
+File Name: 
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5dc;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style rule for table sets the width to 80%, centers the table on the page, creates a border around the table, and specifies a box shadow */
+table {
+	width: 80%;
+	margin: 0 auto;
+    border: 8px solid #fd4d0c;
+    box-shadow: 12px 12px 10px #792101;
+}
+
+/* Style rule for table, tr, th, and td collapses the border and sets padding to 2% */
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rule for the caption sets the font size to 2em, padding to 2%, top margin to 2%, the font color to 792101, and the font weight to bold */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+    color: #792101;
+    font-weight: bold;
+}
+
+/* Style rule for th creates a border */
+th {
+    border: 1px solid #ffe5dc;
+}
+
+/* Style rule for td creates a border */
+td {
+    border: 1px solid #a22c02;
+}
+
+/* Style rule for thead specifies a background color and font color */
+thead {
+    background-color: #a22c02;
+    color: #ffe5dc;
+}
+
+/* Style rule for tbody tr specifies a background color for odd rows */
+tbody tr:nth-child(odd) {
+    background-color: #fe9772;
+}
+
+/* Style for the footer element */
+footer {
+	margin-top: 5%;
+    font-size: .70em;
+	text-align: center;
+}

@@ -1,0 +1,64 @@
+/*
+Author:
+Date:
+File Name:
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style rule for table sets the width to 80%, centers the table on the page, and creates a border around the table */
+table {
+	width: 80%;
+	margin: 0 auto;
+    border: 3px solid #71881b;
+}
+
+/* Style rule for table, tr, th, and td collapses the border and sets padding to 2% */
+ {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rule for the caption sets the font size to 2em, padding to 2%, and top margin to 2% */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Style rule for th and td create a border */
+th, td {
+    border: 1px solid #71881b;
+}
+
+/* Style rule for td aligns text center */
+td {
+	text-align: center;
+}
+
+/* Style rule for tr sets a background color for odd rows */
+tr:nth-child(odd){
+    background-color: #d3e788;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
