@@ -1,0 +1,420 @@
+/*
+Author: Maria Cruz
+Date: Current Date
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, section, aside, figure, figcaption, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #9cb6e8;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rule to hide tab-desk class */
+.tab-desk {
+    display: none;
+}
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    color: #234b95;
+}
+
+header h1 {
+    font-size: 3em;
+    padding-top: 2%;
+    font-family: 'Cookie', cursive;
+}
+
+header h3 {
+    font-style: italic;
+    font-size: 1.25em;
+    font-family: Futura, Arial, sans-serif;
+    padding-bottom: 2%;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #234b95;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    border-top: 1px solid #9cb6e8;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rule for hero image */
+#hero {
+    clear: left;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+main h2 {
+    color: #234b95;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main ul {
+    list-style-type: square;
+    margin: 10%;
+}
+
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #234b95;
+    text-shadow: 5px 5px 15px #4577d3;
+}
+
+figure {
+    position: relative;
+    max-width: 295px;
+    margin: 2% auto;
+    border: 8px solid #234b95;
+    box-shadow: 4px 4px 15px #4577d3;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(35, 75, 149, 0.7); 
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.action {
+    font-size: 1.25em;
+    color: #373684;
+    font-weight: bold;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+#pamper, #full, #basic {
+    margin: 0 2%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .email-link {
+    color: #4645a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tel-link {
+    background-color: #234b95;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 115%;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: 6px solid #234b95;
+    width: 95%;
+    height: 50%;
+}
+
+/* Style rules for form elements */
+fieldset, input, select, textarea  { 
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 1%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #9cb6e8;
+    font-size: 1em;
+    border-radius: 6px;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    clear: left;
+    color: #234b95;
+    font-weight: bold;
+}
+
+footer a {
+    color: #234b95;
+    text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 620px), print {
+ 
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.25em;
+    }
+    
+    nav li a {
+        padding: 0.5em;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+    
+    aside {
+        grid-column: 1 / span 2;
+    }
+    
+    /* Tablet Viewport: Style rules for table */
+    table {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1%;
+    }
+    
+    th, td {
+        border: 1px solid #000;
+        padding: 2%;
+    }
+    
+    th {
+        background-color: #234b95;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    tr:nth-child(even) {
+        background-color: #83a4e2;
+    }
+    
+    /* Tablet Viewport: Style rules for form */
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px; 
+    }
+    
+    .btn {
+        grid-column: 1 / span 2;
+    }
+    
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1024px), print {
+    
+    /* Desktop Viewport: Show tab-desk class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+    /* Desktop Viewport:Style rules for header content */
+    header {
+        text-align: center;
+        color: #234b95;
+        width: 27%;
+        float: left;
+    }
+    
+    header h1 {
+        font-size: 3em;
+        margin-top: 1.25em;
+        font-family: Garamond, Times, serif;
+    }
+
+    header h3 {
+        font-style: italic;
+        font-size: 1.25em;
+        font-family: Futura, Arial, sans-serif;
+    }
+
+    /* Desktop Viewport: Style rules for nav area */
+    nav {
+        background-color: #234b95;
+        width: 70%;
+        float: right;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 5em 1em;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: Verdana, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    nav li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.5em;
+        text-decoration: none;
+    }
+    
+    nav li a:link {
+        color: #fff;
+    }
+    
+    nav li a:hover {
+        color: #ccccff;
+    }
+    
+    nav li a:active {
+        color: #ff99ff;
+    }
+    
+    /* Desktop Viewport: Style rules for main content */
+    #pamper, #full, #basic {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+    
+    .map {
+        width: 600px;
+        height: 450px;
+    }
+    
+    .grid {
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    aside {
+        grid-column: 1 / span 4;
+    }
+    
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px), print {
+    
+    body {
+        background: linear-gradient(#e5e9fc, #234b95);
+        background-repeat: no-repeat;
+    }
+    
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+        
+    main {
+        background-color: #e5e9fc;
+    }
+    
+    footer, footer a {
+        color: #e5e9fc;
+    }
+    
+}
+
+/* Media Query for Print */
+@media print {
+    
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    
+}

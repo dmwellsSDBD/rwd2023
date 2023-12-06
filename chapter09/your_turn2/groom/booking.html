@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+	Student Name: Maria Cruz
+	File Name: booking.html
+	Date: May 5, 2021
+ -->
+<html lang="en">
+<head>
+	<title>Polished Paws: Booking</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Cookie|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+    
+    <div id="container">
+
+        <header>
+            <h1>Polished Paws</h1>
+            <h3>Happy Pets. Happy Owners.</h3>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="groomers.html">Groomers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Image -->
+        <div id="hero">
+            <img src="images/dog-banner.jpg" alt="banner of many dogs">
+        </div>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+
+            <div id="form">
+                
+                <h2>Contact us to book your appointment.</h2> 
+            
+                <form class="form-grid"><!-- Start Form -->
+                    
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName">
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName"> 
+                        
+                        <label for="pName">Pet's Name:</label>
+                        <input type="text" name="pName" id="pName"> 
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                        
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Service Request</legend>
+                        <p>I would like the following service:</p>
+                            
+                        <label for="basicg"><input type="radio" name="service" id="basicg" value="Group Fitness">Basic Groom</label>
+
+                        <label for="fullg"><input type="radio" name="service" id="fullg" value="Full Groom">Full Groom</label>
+
+                        <label for="pamperg"><input type="radio" name="service" id="pamperg" value="Pampered Groom">Pampered Groom</label><br>
+                        
+                        <label for="groomer">Preferred Groomer</label>
+                        <select name="groomer" id="groomer">
+                            <option value="No preference">No preference</option>
+                            <option value="Olivia">Olivia</option>
+                            <option value="David">David</option>
+                            <option value="Angie">Angie</option>
+                            <option value="Liang">Liang</option>
+                        </select>
+                        
+                        <label for="requests">Special requests or instructions</label>
+                        <textarea id="requests" name="requests" rows="5" cols="35"></textarea>
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    
+                </form>
+            
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:contact@ppaws.net">contact@ppaws.net</a></p>
+        </footer>
+        
+    </div>
+	
+</body>
+</html>
