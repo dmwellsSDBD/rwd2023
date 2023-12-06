@@ -1,0 +1,6 @@
+http://www.exampledomain.com/index.html 
+http://www.exampledomain.com/ai.html 
+http://www.exampledomain.com/deeplearn.html 
+http://www.exampledomain.com/insight.html 
+http://www.exampledomain.com/nanotech.html
+http://www.exampledomain.com/vehicles.html 

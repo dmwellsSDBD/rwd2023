@@ -1,0 +1,5 @@
+http://www.exampledomain.com/index.html 
+http://www.exampledomain.com/booking.html 
+http://www.exampledomain.com/contact.html 
+http://www.exampledomain.com/groomers.html 
+http://www.exampledomain.com/services.html 
