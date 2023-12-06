@@ -1,0 +1,47 @@
+/*
+Authors: Jamal Williams, Eric Jones, Laura Smith, Sofia Perez
+Date: Current Date
+File Name: styles.css
+*/
+
+.tron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/machine-learning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main ul li {
+    list-style-type: none;
+}
+
+.bg-blue {
+    background-color: #5371a9;
+}
+
+.bg-light-blue {
+     background-color: #ccd5e6;   
+}
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {  
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,27 @@
+/*
+Author: Maria Cruz
+Date: Current Date
+File Name: styles.css
+*/
+
+
+.bg-light-blue {
+    background-color: #cce6ff; 
+}
+
+.text-blue {
+    color: #3366cc;
+}
+
+.display-3 {
+        font-size: 3em;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    
+    .display-3 {
+        font-size: 4em;
+    }
+    
+}
