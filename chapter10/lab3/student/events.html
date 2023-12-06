@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- 
+	Group Members: Jamal Williams, Eric Jones, Laura Smith, Sofia Perez
+	File Name: events.html
+	Today's Date: July 28, 2021
+ -->
+<html lang="en">
+<head>
+	<title>Student Happenings: Events</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display:900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <header>
+            <h1>Student Happenings</h1>
+        </header>
+
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="clubs.html">Clubs</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="nav-icon" onclick="menu()">
+                <div id="icon">&#9776;</div>
+            </a>
+		</nav> 
+
+        <nav class="tablet-desk">
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="clubs.html">Clubs</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Use the main element to add main content to the webpage -->
+        <main>	
+
+            <article class="grid">
+                
+                <section class="events">
+                    <h2>Campus Tours</h2>
+                    <p>Considering our school for your educational endeavors? Start with a campus tour! Let us show you our beautiful campus along with everything you need to know to get started as a new student.</p>
+                </section>
+                
+                <section class="events">
+                    <h2>Student Socials</h2>
+                    <p>New here? Come mix and mingle with fellow students every Monday and Friday at 4pm in the Activities Center. Meet current students who gave share helpful tips. Appetizers and soft drinks provided.</p>
+                    <p>Enjoy live music with DJ Flip</p>
+                    <audio controls>
+                        <source src="media/audio.mp3" type="audio/mp3">
+                        <source src="media/audio.ogg" type="audio/ogg">
+                        <p>Your browser does not support the audio element.</p>
+                    </audio>
+                </section>
+                
+                <section class="events">
+                    <h2>Resume Workshop</h2>
+                    <p>Need a resume but not sure where to start? Come to our free resume workshop to learn how to put together a resume to start your new career. The workshop is held every Tuesday at 3pm and is open to all students.</p>
+                </section>
+                
+                <aside>
+                    <p>Students are welcome to bring a friend or relative to any of these events. Suggestions for other events are also welcome.</p>
+                </aside>
+                
+            </article>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:contact@studenthap.net">contact@studenthap.net</a></p>
+            <p><a href="https://phsc.edu/" target="_blank">Pasco-Hernando State College</a></p>
+        </footer>
+        
+    </div>
+    <script src="scripts/script.js"></script>
+	
+</body>
+</html>
